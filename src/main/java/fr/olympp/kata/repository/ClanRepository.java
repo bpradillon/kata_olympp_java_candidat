@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface ClanRepository {
 
-    public void addClan(Clan clan);
+    void addClan(Clan clan);
 
-    public Clan updateClan(Clan clan);
+    Clan updateClan(Clan clan);
 
-    public Clan getClan(String name);
+    Clan getClan(String name);
 
     List<Clan> getClans();
 }
